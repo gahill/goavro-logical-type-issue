@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	// Schema bellow the currency logical type should be treated as a string
+	// In the schema below the currency logical type should be treated as a string
 	// https://avro.apache.org/docs/1.8.2/spec.html#Logical+Types
 	_, err := goavro.NewCodec(`
 	{
